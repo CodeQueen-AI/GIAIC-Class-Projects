@@ -34,7 +34,7 @@ def orchestrator_agent(country):
     language = language_agent(country)
     population = population_agent(country)
 
-    return f"📍 Country: {country}\n🏛️ Capital: {capital}\n🗣️ Language: {language}\n👥 Population: {population}"
+    return f"📍 Country: {country}\n Capital: {capital}\n Language: {language}\n Population: {population}"
 
 # Example usage
 print(orchestrator_agent("Pakistan"))
